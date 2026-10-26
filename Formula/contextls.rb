@@ -1,25 +1,25 @@
 class Contextls < Formula
   desc "List the context / memory / instruction files each AI coding tool loads for a folder"
   homepage "https://github.com/danielwanja/contextls"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/danielwanja/contextls/releases/download/v0.1.0/contextls-aarch64-apple-darwin.tar.xz"
-      sha256 "5b7ac65bb5d48f90eb01f78cc87e19cddb952dff61f683a0530fd08b67f57831"
+      url "https://github.com/danielwanja/contextls/releases/download/v0.2.0/contextls-aarch64-apple-darwin.tar.xz"
+      sha256 "de621a30701bd973f7fbe7b0071078fbb1e9102c0d0625976cd00ffc84836a46"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/danielwanja/contextls/releases/download/v0.1.0/contextls-x86_64-apple-darwin.tar.xz"
-      sha256 "1200485504238061e2c9c7b7c5b59b450c9c79ff539bc8c282fd392d4451a714"
+      url "https://github.com/danielwanja/contextls/releases/download/v0.2.0/contextls-x86_64-apple-darwin.tar.xz"
+      sha256 "000b18e8ed56861bbe04b9398285a593d95eefb6d450b456a71337f672a15234"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/danielwanja/contextls/releases/download/v0.1.0/contextls-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "608602b79375bec54481da86e453926a7f16fa4ce389fa6fa9721ec74c712c95"
+      url "https://github.com/danielwanja/contextls/releases/download/v0.2.0/contextls-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "04d1426c71fa672fd4093645f8fca81cfb827df2022d1327ba54f2d409da39c9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/danielwanja/contextls/releases/download/v0.1.0/contextls-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "fd6c9a2982f27ab16493458b16e7060a9f8b819837bc7f9959d18c89b70db377"
+      url "https://github.com/danielwanja/contextls/releases/download/v0.2.0/contextls-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "caa73a4e7a72cd0ca7ca80821420c5496bd8b0b15ac475a52848f3494f3e90d9"
     end
   end
   license "MIT"
