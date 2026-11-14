@@ -1,25 +1,25 @@
 class Gitsanity < Formula
   desc "Git history analytics for the terminal"
   homepage "https://github.com/danielwanja/gitsanity"
-  version "2.0.0-alpha.1"
+  version "2.0.0-alpha.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/danielwanja/gitsanity/releases/download/v2.0.0-alpha.1/gitsanity-aarch64-apple-darwin.tar.xz"
-      sha256 "c14cd7c903e7b026e8d0aa3cc44f5a9971fe580fa70a7fbc4ccd737eddf97437"
+      url "https://github.com/danielwanja/gitsanity/releases/download/v2.0.0-alpha.2/gitsanity-aarch64-apple-darwin.tar.xz"
+      sha256 "ec1250c570eeab08a831bcef73b848743da81cf93def841bbd54f07b372268c6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/danielwanja/gitsanity/releases/download/v2.0.0-alpha.1/gitsanity-x86_64-apple-darwin.tar.xz"
-      sha256 "07b7f6a3a36c5682c414d1817a9c869a6d741368f456f5758c0331ea1c64b21b"
+      url "https://github.com/danielwanja/gitsanity/releases/download/v2.0.0-alpha.2/gitsanity-x86_64-apple-darwin.tar.xz"
+      sha256 "485a39866e5f5c77f62c98062131556fe0ba727f5e988c4d56bfac4c6e6e8dc4"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/danielwanja/gitsanity/releases/download/v2.0.0-alpha.1/gitsanity-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "77a0dbffe1069172104f0219d4f280939797b5234cbf14bca0b3e017ace02075"
+      url "https://github.com/danielwanja/gitsanity/releases/download/v2.0.0-alpha.2/gitsanity-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "227a5a18edc4e386ed5006c370a7d80eec5d408eb40a4b7d85aee88fb69e67b0"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/danielwanja/gitsanity/releases/download/v2.0.0-alpha.1/gitsanity-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "860c954a4b1dff76f8b9042ffcabac1696e3494e7474a9b5c8c1491c96ae5f82"
+      url "https://github.com/danielwanja/gitsanity/releases/download/v2.0.0-alpha.2/gitsanity-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "da26c6d8d8160575643fbdd66b61cc68ef3090c1d77be8ef7230ebda74a5fb6b"
     end
   end
   license "MIT"
